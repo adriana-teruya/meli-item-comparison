@@ -5,4 +5,8 @@ Este projeto oferece um protótipo de Frontend responsivo para comparação de i
 ## Links para os repositórios:
 
 - **Backend**: https://github.com/adriana-teruya/item-comparision-backend
-- **Frontend**: https://github.com/adriana-teruya/item-comparision-frontend 
+- **Frontend**: https://github.com/adriana-teruya/item-comparision-frontend
+
+## Plano do Projeto
+
+O plano para a execução dos próximos passos do projeto Product Comparison está detalhado no arquivo ProjectPlan.md 
