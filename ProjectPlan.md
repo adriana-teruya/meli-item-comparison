@@ -1,7 +1,8 @@
 # Product Comparison - Plano de Projeto
 
 ## 1. Visão Geral
-Este projeto visa transformar um protótipo funcional inicial de comparação de produtos em uma solução robusta, escalável e pronta para implementação, integrando-o ao ecossistema existente do Mercado Livre. 
+Este projeto visa transformar um protótipo funcional inicial de comparação de produtos em uma solução robusta, escalável e pronta para implementação, integrando-o ao ecossistema existente do Mercado Livre.
+
 O objetivo principal é oferecer aos usuários uma ferramenta de comparação avançada e confiável, que permita uma tomada de decisão de compra mais informada.
 
 **Escopo:**
@@ -44,7 +45,7 @@ Acreditamos que a integração de Inteligência Artificial Generativa (GenAI) e 
 ## 3. Planejamento de Recursos e Cronograma
 
 ### 3.1. Equipe e Responsabilidades (para um projeto em escala total)
-* Sugestão de time e alocação (em % de capacidade) e cronograma para execução do projeto, considerando o uso de Gen AI, Agentic IDE e Plataforma FURY para otimização das entregas:
+* **Sugestão de time e alocação (em % de capacidade) e cronograma para execução do projeto, considerando o uso de Gen AI, Agentic IDE e Plataforma FURY para otimização das entregas:**
 
 - **1 Líder de Projeto (30%)**: Responsável pela gestão geral do projeto, comunicação, alinhamento técnico e estratégico. 
 - **1 Engenheiros de Software Sênior (100%)**: Responsáveis pela arquitetura dos microsserviços, revisão de código e resolução de problemas complexos.
@@ -57,39 +58,39 @@ Acreditamos que a integração de Inteligência Artificial Generativa (GenAI) e 
 - M1.1: Definição final da arquitetura de microsserviços e tecnologias.
 - M1.2: Configuração inicial dos ambientes de desenvolvimento e CI/CD na FURY.
 - M1.3: Implementação do esqueleto de um microsserviço e integração com BD.
-- Dependências: Decisão técnica da stack, acesso à plataforma FURY.
+  - Dependências: Decisão técnica da stack, acesso à plataforma FURY.
 
 **Milestone 2: Backend e Dados (Semanas 2-4)**
 - M2.1: Conclusão da integração com banco de dados real.
 - M2.2: Desenvolvimento do microsserviço de busca avançada.
 - M2.3: Integração com as primeiras APIs reais de produtos (Meli).
 - M2.4: Implementação dos primeiros testes de integração e unitários do backend.
-- Dependências: Disponibilidade das APIs do Mercado Livre, dados de produtos.
+  - Dependências: Disponibilidade das APIs do Mercado Livre, dados de produtos.
 
 **Milestone 3: Frontend e Integração (Semanas 5-6)**
 - M3.1: Adaptação do frontend para consumir os novos microsserviços.
 - M3.2: Implementação das funcionalidades de busca avançada no frontend.
 - M3.3: Desenvolvimento da interface de comparação aprimorada.
 - M3.4: Implementação dos testes automatizados de frontend (e2e, unitários).
-- Dependências: Backend estável, definição das funcionalidades de integração com a aplicação principal.
+  - Dependências: Backend estável, definição das funcionalidades de integração com a aplicação principal.
 
 **Milestone 4: Refinamento, Segurança e Implantação (Semanas 7-8)**
 - M4.1: Auditoria de segurança da funcionalidade e serviços, checagem de fatores regulatórios / legal / compliance (se aplicável), e otimização de performance.
 - M4.2: Configuração de monitoramento e alertas (via FURY e ferramentas Meli).
 - M4.3: Implantação em ambiente de staging para testes de larga escala e estratégia de implantação em ambiente de produção.
 - M4.4: Lançamento da primeira fase em produção (ex: para um grupo restrito de usuários) e acompanhamento pós-implantação.
-- Dependências: Testes Ok, aprovação de segurança, infraestrutura pronta na FURY.
+  - Dependências: Testes Ok, aprovação de segurança, infraestrutura pronta na FURY.
 
 ## 4. Considerações Adicionais
 
-**Documentação**: Manutenção de documentação técnica clara e atualizada para os microsserviços (API docs, diagramas de arquitetura) e para o processo de desenvolvimento como um todo.
+- **Documentação**: Manutenção de documentação técnica clara e atualizada para os microsserviços (API docs, diagramas de arquitetura) e para o processo de desenvolvimento como um todo.
 
-**Comunicação**: Reuniões de alinhamento semanais, uso de ferramentas de comunicação interna (Slack, Google Meet) para agilizar decisões e disseminar informações.
+- **Comunicação**: Reuniões de alinhamento semanais, uso de ferramentas de comunicação interna (Slack, Google Meet) para agilizar decisões e disseminar informações.
 
-**Gestão de Conhecimento**: Compartilhamento de conhecimento entre a equipe através de sessões de Pair Programming e workshops.
+- **Gestão de Conhecimento**: Compartilhamento de conhecimento entre a equipe através de sessões de Pair Programming e workshops.
 
-**Manutenção**: Dedicação de tempo em sprints futuras para correção de problemas, otimização de performance e implementação de melhorias baseadas nos dados de monitoramento.
+- **Manutenção**: Dedicação de tempo em sprints futuras para correção de problemas, otimização de performance e implementação de melhorias baseadas nos dados de monitoramento.
 
-**Melhorias**: Análise de benchmarking e evolução da funcionalidade (ex: inclusão de histórico de preços dos produtos consultados e alerta de preço desejado). 
+- **Melhorias**: Análise de benchmarking e evolução da funcionalidade (ex: inclusão de histórico de preços dos produtos consultados e alerta de preço desejado). 
 
 Este plano de projeto busca garantir uma evolução eficiente e bem-sucedida do protótipo, transformando-o em uma funcionalidade de valor agregado para os usuários do Mercado Livre, com foco em qualidade, performance e sustentabilidade a longo prazo. 
