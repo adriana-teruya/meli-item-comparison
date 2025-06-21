@@ -45,7 +45,7 @@ Acreditamos que a integração de Inteligência Artificial Generativa (GenAI) e 
 ## 3. Planejamento de Recursos e Cronograma
 
 ### 3.1. Equipe e Responsabilidades (para um projeto em escala total)
-* **Sugestão de time e alocação (em % de capacidade) e cronograma para execução do projeto, considerando o uso de Gen AI, Agentic IDE e Plataforma FURY para otimização das entregas:**
+**Sugestão de time e alocação (em % de capacidade) e cronograma para execução do projeto, considerando o uso de Gen AI, Agentic IDE e Plataforma FURY para otimização das entregas:**
 
 - **1 Líder de Projeto (30%)**: Responsável pela gestão geral do projeto, comunicação, alinhamento técnico e estratégico. 
 - **1 Engenheiros de Software Sênior (100%)**: Responsáveis pela arquitetura dos microsserviços, revisão de código e resolução de problemas complexos.
